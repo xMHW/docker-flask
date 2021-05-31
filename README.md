@@ -6,5 +6,5 @@ docker builtd -t docker-flask .
 2. docker run
 
 ```
-docker run -d -P --restart=always docker-flask
+docker run -d -p 5000:5000 docker-flask
 ```
